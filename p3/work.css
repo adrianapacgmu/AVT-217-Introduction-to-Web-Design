@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+}
+html body {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 14px;
+	font-weight: normal;
+	height: 100%;
+	background color: #056B32;
+	background-size:cover;
+	background-attachment: fixed;
+}
+.header{
+	padding: 15px 35px;
+	display: inline-block;
+	width: 100%;
+}
+.logo{
+	float: left;
+	margin-left: 100px;
+	margin-top: 15px;
+}
+img{
+	max-width: 100%;
+}
+.menu {
+	float: right;
+}
+.menu ul li {
+	display:inline-block;
+	float: left;
+	line-height: 28px;
+	margin-top: 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color:#fff;
+	font-size: 24px;
+	padding: 5px 20px;
+}
+.menu ul li a:hover {
+	color: #f6ff00;
+	letter-spacing: 2px;
+}
+.name {
+	width: 350px;
+	margin-top: 200px;
+	text-align: right;
+	margin-left: 50px;
+}
+.name h5{
+	color: #f6ff00;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+.name h1{
+	color: #fff;
+	font-size: 90px;
+	line-height: 88px;
+	letter-spacing: 5px;
+}
+.column{
+	margin-left: 150px;
+	
+}
+
+h2{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 30px;
+	color:#f6ff00;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-left: 400px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+}
+html body {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 14px;
+	font-weight: normal;
+	height: 100%;
+	background: url("maia.jpg") no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+.header{
+	padding: 15px 35px;
+	display: inline-block;
+	width: 100%;
+}
+.logo{
+	margin-right: 100px;
+	margin-top: 15px;
+}
+h2{
+	color: #f6ff00;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 150px;
+	margin-top: 150px;
+	
+}
+
+p{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-left: 150px;
+	margin-top: 20px;
+	
+}
+.menu {
+	float: right;
+}
+.menu ul li {
+	display:inline-block;
+	float: left;
+	line-height: 28px;
+	margin-top: 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color:#fff;
+	font-size: 24px;
+	padding: 5px 20px;
+}
+.menu ul li a:hover {
+	color: #f6ff00;
+	letter-spacing: 2px;
+}
+.name {
+	width: 350px;
+	margin-top: 200px;
+	text-align: right;
+	margin-left: 50px;
+}
+.name h5{
+	color: #f6ff00;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+
