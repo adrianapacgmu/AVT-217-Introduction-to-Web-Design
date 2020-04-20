@@ -72,5 +72,10 @@ p{
 	font-size: 20px;
 	letter-spacing: 5px;
 }
-
+footer {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 10px;
+	color: #FFF5F6;
+	margin-left: 50px;
+}
 
