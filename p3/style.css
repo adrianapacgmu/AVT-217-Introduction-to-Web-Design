@@ -77,11 +77,12 @@ header ul li ul{
 
 
 .footer {
-    position:fixed;bottom:0;
+    position:right;bottom:0;
     width:100%;
     display:block;
  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	font-size: 10px;
 	color: #FFF5F6;
+	
 	
 }
