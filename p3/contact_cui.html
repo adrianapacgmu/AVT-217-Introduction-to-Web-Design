@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+        <link rel="stylesheet" href="form.css" >
+        <script src="form.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="contact.css"/>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+</head>
+
+<body>
+
+
+		<header>
+
+	<div class="header">
+	<div class="logo animated fadeInDownBig">
+	<img src="logo.png" width="150" height="100">
+		</div>
+<div class="menu animated fadeInDownBig">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html" >About</a></li>
+			<li><a href="work_cui.html">Portfolio</a></li>
+			 <li><a href="contact_cui.html">Contact</a></li>
+			</ul>
+		</div>
+		</div>
+		</header>
+
+		<div class="container">
+           <div class="imagebg"></div>
+            <div class="container">
+                <div class="form-container z-depth-5">
+                    <h3>Contact Me</h3> 
+                    <div class="row">
+                        <form class="col s12" id="reused_form">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="name" type="text" name="name" required class="validate">
+                                    <label for="name">Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" name="email" required class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="message" name="message" class="materialize-textarea" class="validate" ></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="waves-effect waves-light btn submitbtn" type="submit">Submit</button>
+                            </div>
+                        </form>
+                        <div id="error_message" style="width:100%; height:100%; display:none; ">
+                            <h4>
+                                Error
+                            </h4>
+                            Sorry there was an error sending your form. 
+                        </div>
+                        <div id="success_message" style="width:100%; height:100%; display:none; ">
+                            <h4>
+                                Success! Your Message was Sent Successfully. Adriana will contact you shortly.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  </div>
+
+<footer>
+    <p> © 2020 Adriana Pac </p>
+    </footer>
+		
+</body>
+</html>
