@@ -12,6 +12,7 @@ html body {
 	font-weight: normal;
 	height: 100%;
 	background color: #056B32;
+	background: url("maia.jpg") no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
 }
